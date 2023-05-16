@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'sessao';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sobre';
+    src: url(../fonts/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'nome';
+    src: url(../fonts/Poppins-BoldItalic.ttf);
+}
+
+body{
+    background-image: url(../img/wp2682996.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+
+
+.container-menu-opcao a:nth-of-type(3){
+    transform: scale(95%);
+    border-bottom: 1px solid white;
+}
+
+.sessao_menu{
+    display: flex;
+    gap: 17%;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding-top: 1%;
+    font-family: 'sessao';
+}
+
+
+.container-menu-opcao{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+
+.container-menu-opcao a{
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    color: white;
+}
+
+
+.container-menu-opcao a:hover{
+    transition: all .5s;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    transform: scale(95%);
+}
+
+.sessao_menu div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: 'nome';
+    margin-left: 3%;
+    width: 20%;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.297);
+    width: 80%;
+    height: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    
+}
+
+.container-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
