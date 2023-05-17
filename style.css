@@ -78,20 +78,54 @@ body{
 }
 
 .sobre{
-    font-size: 1vw;
+    font-size: 19px;
 }
 
+
+
 .info{
-    font-size: .8vw;
+    font-size: 15px;
 }
 
 .span-nome{
-    font-size: 1.1vw;
+    font-size: 21px;
 }
 
 .d1{
-    font-size: .9vw;
+    font-size: 15px;
 }
+
+@media (max-width:1024px){
+    .sobre{
+        font-size: 16px;
+    }
+    .info{
+        font-size: 12px;
+    }
+    .span-nome{
+        font-size: 13px;
+    }
+    .d1{
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width:768px){
+    .sobre{
+        font-size: 13px;
+    }
+    .info{
+        font-size: 10px;
+    }
+    .span-nome{
+        font-size: 10px;
+    }
+    .d1{
+        font-size: 12px;
+    }
+}
+
 
 
 
@@ -115,7 +149,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 15%;
+    justify-content: space-between;
     
 }
 
@@ -126,7 +160,7 @@ body{
 
 
 .container-apresentacao{
-    width: 30%;
+    width: 25%;
     margin-left: 15%;
     display: flex;
     justify-content: center;
@@ -135,7 +169,7 @@ body{
     font-family: 'sobre';
 }
 .button{
-   width: 40%;
+   width: 35%;
    height: 50px;
    border: 1px solid white;
    background-color: transparent;
@@ -171,9 +205,9 @@ body{
 
 
 .container-img img{
-    width: 100%;
+    width: 75%;
     border-radius:10% 40% 10% 40%;
-    filter: grayscale(60%);
+    filter: grayscale(80%);
 }
 
 

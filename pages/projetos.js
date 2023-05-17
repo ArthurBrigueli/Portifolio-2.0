@@ -11,7 +11,7 @@ const getRepositorio = async() => {
 
 const mais_projeto = async()=>{
     const data = await getRepositorio()
-
+    
     data.map(item =>{
         if(item.name == 'pokedex-js' || item.name == 'Interactive-card-Responsive' || item.name == 'temperature-of-your-city-js' || item.name == 'Portifolio' || item.name == 'ArthurBrigueli'){
             return
