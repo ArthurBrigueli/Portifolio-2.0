@@ -35,28 +35,40 @@ body{
 }
 
 .sessao_menu{
+    position: static;
     display: flex;
-    gap: 17%;
+    gap: 30%;
     width: 100%;
     height: 10%;
     display: flex;
     padding-top: 1%;
     font-family: 'sessao';
+    justify-content: space-around;
 }
 
 
 .container-menu-opcao{
-    width: 60%;
     display: flex;
     align-items: center;
-    gap: 5%;
+    gap: 10%;
+    width: 25%;
 }
 
+
+@media (max-width:768px){
+    .container-menu-opcao{
+        font-size: 12px;
+    }
+    .nome{
+        font-size: 13px;
+    }
+}
 
 .container-menu-opcao a{
     border-bottom: 1px solid transparent;
     text-decoration: none;
     color: white;
+    
 }
 
 
@@ -72,8 +84,7 @@ body{
     align-items: center;
     font-size: 1.5em;
     font-family: 'nome';
-    margin-left: 3%;
-    width: 20%;
+    
 }
 
 .container{
@@ -89,8 +100,51 @@ body{
 
 .container-conteudo{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
+
 }
+
+.container-download{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-download a{
+    width: 50%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    font-family: 'nome';
+    transition: all .5s;
+    font-size: 1.5rem;
+}
+
+.container-download a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+
+.container-game{
+    width: 50%;
+    height: 80%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+
+
