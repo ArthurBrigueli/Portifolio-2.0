@@ -17,15 +17,15 @@ const mais_projeto = async()=>{
             return
         }else{
             const projeto = document.createElement('div')
-            projeto.className = 'projeto'
+            projeto.className = 'projeto-git'
             projeto.innerHTML += `
-                <div class="container-img">
-                    <img class="img-git" src="../img_projeto/GitHub-Mark.png" alt="">
-                    <span class="nome-projeto">${item.name}</span>
+                <div class="container-git-img">
+                    <img class="img-projeto-git" src="../img_projeto/GitHub-Mark.png" alt="">
+                    <span class="nome-projeto-git">${item.name}</span>
                 </div>
-                <div class="container-info">
-                    <span class="linguagem-projeto">${item.language}</span>
-                    <a class="botao-projeto" href="${item.clone_url}" target="_blank">GitHub</a>
+                <div class="container-info-git">
+                    <span class="linguagem-projeto-git">${item.language}</span>
+                    <a class="botao-projeto-git" href="${item.clone_url}" target="_blank">GitHub</a>
                 </div>
             `
             container_conteudo.appendChild(projeto)
