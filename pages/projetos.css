@@ -97,6 +97,8 @@ body{
     flex-wrap: wrap;
     overflow: hidden;
     overflow-y: scroll;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 
@@ -111,61 +113,14 @@ body{
     font-family: 'nome';
     padding: 20px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-left: 35px;
     margin-bottom: 20px;
 }
 
 
 
-@media (max-width: 1024px){
-    .projeto{
-        font-size: 13px;
-    }
-    .projeto{
-        height: 200px;
-    }
-    .botao-projeto{
-        font-size: 10px;
-    }
-}
 
-
-@media (max-width:768px){
-    .projeto{
-        font-size: 10px;
-    }
-    .container-menu-opcao{
-        font-size: 12px;
-    }
-    .nome{
-        font-size: 13px;
-    }
-    .projeto{
-        height: 150px;
-    }
-    .botao-projeto{
-        font-size: 7px;
-    }
-}
-
-
-@media(max-width:480px){
-    .container-conteudo{
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: center;
-    }
-    .projeto{
-        margin-left: 0;
-        width: 55%;
-        height: 250px;
-    }
-    .botao-projeto{
-        font-size: 15px;
-    }
-}
 
 
 .projeto:hover {
@@ -179,7 +134,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
     text-align: center;
 }
 
@@ -339,4 +293,78 @@ img{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     transform: scale(95%);
+}
+
+.projetos-git{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 1024px){
+    .projeto-git{
+        width: 20%;
+    }
+}
+
+@media (max-width: 768px){
+    .projeto-git{
+        width: 30%;
+    }
+}
+
+@media (max-width: 480px){
+    .projeto-git{
+        width: 55%;
+        margin-left: 0;
+    }
+}
+
+
+
+@media (max-width: 1024px){
+    .projeto{
+        font-size: 13px;
+        gap: 30px;
+    }
+
+    .projeto{
+        height: 250px;
+    }
+    .botao-projeto{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width:768px){
+    .projeto{
+        font-size: 10px;
+    }
+    .container-menu-opcao{
+        font-size: 12px;
+    }
+    .nome{
+        font-size: 13px;
+    }
+    .projeto{
+        height: 240px;
+    }
+    .botao-projeto{
+        font-size: 7px;
+    }
+}
+
+
+@media(max-width:480px){
+
+    .projeto{
+        margin-left: 0;
+        width: 55%;
+        height: 250px;
+    }
+    .botao-projeto{
+        font-size: 15px;
+    }
 }
