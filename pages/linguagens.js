@@ -4,6 +4,7 @@ const js = document.querySelector('.js')
 const csharp = document.querySelector('.csharp')
 const oracle = document.querySelector('.oracle')
 const skils = document.querySelector('.skils')
+const react = document.querySelector('.react')
 
 const p = document.querySelector('.desc')
 const t = document.querySelector('.titulo')
@@ -33,6 +34,12 @@ oracle.addEventListener('mouseenter', ()=>{
     t.textContent = 'Oracle SQL'
     p.innerHTML = 'Cursando a tecnologia Oracle SQL no atual terceiro semestre na faculdade de analise e desenvolvimento de sistemas'
     t.style.color = 'orange'
+})
+
+react.addEventListener('mouseleave', ()=>{
+   t.textContent = 'React Js'
+   p.innerHTML = 'Cursando a tecnologia React Js na Udemy - React do Zero a Maestria (c/ hooks, router, API, Projetos)'
+   t.style.color = 'rgb(157, 252, 255)'
 })
 
 skils.addEventListener('mouseleave', ()=>{

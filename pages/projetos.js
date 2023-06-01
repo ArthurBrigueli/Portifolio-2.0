@@ -16,7 +16,6 @@ const mais_projeto = async()=>{
     projetos.className = 'projetos-git'
     container_conteudo.appendChild(projetos)
 
-
     data.map(item =>{
         if(item.name == 'pokedex-js' || item.name == 'Interactive-card-Responsive' || item.name == 'temperature-of-your-city-js' || item.name == 'Portifolio' || item.name == 'ArthurBrigueli'){
             return

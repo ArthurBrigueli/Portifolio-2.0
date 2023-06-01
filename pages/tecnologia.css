@@ -140,6 +140,7 @@ body{
 
 .skils img{
     width: 80px;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.304);
     border: 1px solid white;
     cursor: pointer;
