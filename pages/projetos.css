@@ -35,24 +35,33 @@ body{
 }
 
 .sessao_menu{
-    position: static;
     display: flex;
-    gap: 30%;
-    width: 100%;
     height: 10%;
     display: flex;
-    padding-top: 1%;
     font-family: 'sessao';
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
 }
 
 
 .container-menu-opcao{
     display: flex;
-    align-items: center;
-    gap: 10%;
-    width: 25%;
+    gap: 50px;
 }
+
+.container-logo-sessao{
+    position: relative;
+    left: 2%;
+}
+
+
+.container-logo-sessao img{
+    width: 60px;
+    border-radius: 20%;
+    filter: invert(100%); /* Aplica o filtro invert */
+}
+
 
 
 .container-menu-opcao a{
@@ -70,25 +79,20 @@ body{
     transform: scale(95%);
 }
 
-.sessao_menu div:nth-of-type(1){
-    display: flex;
-    align-items: center;
-    font-size: 1.5em;
-    font-family: 'nome';
-    
-}
+
 
 .container{
     background-color: rgba(0, 0, 0, 0.297);
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height:100%;
     color: white;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
     overflow: hidden;
-    
+    overflow-y: scroll;
 }
+
 
 .container-conteudo{
     display: flex;
@@ -104,7 +108,7 @@ body{
 
 .projeto {
     background-color: rgb(11,13,20);
-    width: 25%;
+    width: 15%;
     height: 500px;
     border-radius:5px;
     transition: all .2s;
@@ -117,6 +121,7 @@ body{
     margin-left: 35px;
     margin-bottom: 20px;
 }
+
 
 
 
@@ -344,9 +349,6 @@ img{
     }
     .container-menu-opcao{
         font-size: 12px;
-    }
-    .nome{
-        font-size: 13px;
     }
     .projeto{
         height: 240px;
