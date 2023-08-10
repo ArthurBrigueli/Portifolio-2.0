@@ -7,41 +7,47 @@ const d = document.querySelector('.desc')
 
 const info = [
     {
-        id: "html",
+        id: "0",
         titulo: "HTML",
         desc: "Curso realizado de Html no site Curso em video, +/- 1 ano de experiencia com a tecnologia",
         cor: "orange"
     },
     {
-        id: "CSS",
+        id: "1",
         titulo: "Css",
         desc: "Curso realizado de Css no site Curso em video, +/- 1 ano de experiencia com a tecnologia",
         cor: "rgb(157, 252, 255)"
     },
     {
-        id: "jss",
+        id: "2",
         titulo: "JavaScript",
         desc: "Curso realizado de JavaScript no site Curso em video, +/- 1 ano de experiencia com a tecnologia",
         cor: "rgb(255, 255, 78)"
     },
     {
-        id: "csharp",
+        id: "3",
         titulo: "Csharp",
         desc: "Cursando a tecnologia Csharp no atual terceiro semestre na faculdade de analise e desenvolvimento de sistemas",
         cor: "rgb(255, 101, 255)"
     },
     {
-        id: "oracle",
+        id: "4",
         titulo: "Oracle",
         desc: "Cursando a tecnologia Oracle SQL no atual terceiro semestre na faculdade de analise e desenvolvimento de sistemas",
         cor: "orange"
     },
     {
-        id: "react",
+        id: "5",
         titulo: "React",
         desc: "Cursando a tecnologia React Js na Udemy - React do Zero a Maestria (c/ hooks, router, API, Projetos",
         cor: "rgb(157, 252, 255)"
     },
+    {
+        id: 'Node-Js',
+        titulo: 'teste',
+        desc: 'teste desc',
+        cor: 'green'
+    }
 ]
 
 
