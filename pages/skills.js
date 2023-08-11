@@ -43,7 +43,7 @@ const info = [
         cor: "rgb(157, 252, 255)"
     },
     {
-        id: 'Node-Js',
+        id: '6',
         titulo: 'teste',
         desc: 'teste desc',
         cor: 'green'
@@ -70,7 +70,7 @@ for(let skill = 0; skill < skills.length; skill++){
     })
 
     skills[skill].addEventListener("mouseleave", ()=>{
-        esconderDesc(skills[skills])
+        esconderDesc()
     })
 }
 
