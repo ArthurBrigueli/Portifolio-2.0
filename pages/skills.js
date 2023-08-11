@@ -44,8 +44,8 @@ const info = [
     },
     {
         id: '6',
-        titulo: 'teste',
-        desc: 'teste desc',
+        titulo: ' NodeJS',
+        desc: 'feito pelo canal ciencia da computação, usando todas as bibliotecas nescessaria para a criação de um projeto back e front ed',
         cor: 'green'
     }
 ]
