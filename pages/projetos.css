@@ -89,8 +89,6 @@ body{
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    overflow: hidden;
-    overflow-y: scroll;
 }
 
 
@@ -98,8 +96,6 @@ body{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    overflow: hidden;
-    overflow-y: scroll;
     justify-content: space-evenly;
     align-items: center;
 }
