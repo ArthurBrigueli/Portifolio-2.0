@@ -20,9 +20,6 @@
 body{
     background-image: url(../img/wp2682996.jpg);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 930px;
     
 }
 
@@ -84,7 +81,6 @@ body{
 .container{
     background-color: rgba(0, 0, 0, 0.297);
     width: 100%;
-    height:100%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -97,7 +93,7 @@ body{
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    height: 100vh;
 }
 
 
