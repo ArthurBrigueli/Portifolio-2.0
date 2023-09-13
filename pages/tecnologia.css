@@ -206,11 +206,16 @@ body{
 .container-info-skils{
     display: flex;
     flex-direction: column;
-    gap: 30px;
     font-family: 'nome';
     flex-wrap: wrap;
-    padding: 50px;
     width: 50%;
+}
+
+.container-titulo{
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    padding: 10px;
 }
 
 .titulo{
@@ -219,13 +224,11 @@ body{
 
 .desc{
     font-size: 20px;
+    height: 100px;
+    padding: 10px;
+
 }
 
-.container-titulo{
-    display: flex;
-    justify-content: start;
-    
-}
 
 
 
