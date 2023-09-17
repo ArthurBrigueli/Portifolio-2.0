@@ -21,8 +21,7 @@ body{
     background-image: url(img/wp2682996.jpg);
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 930px;
+    height: 100vh;
     
 }
 
@@ -36,7 +35,6 @@ body{
 .sessao_menu{
     display: flex;
     height: 10%;
-    display: flex;
     font-family: 'sessao';
     justify-content: space-between;
     padding-top: 10px;
@@ -106,21 +104,19 @@ body{
 
 .container{
     background-color: rgba(0, 0, 0, 0.297);
-    width: 100%;
-    height:100%;
     color: white;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
     overflow: hidden;
     overflow-y: scroll;
+    gap: 5%;
 }
 
 
 
 
 .container-conteudo{
-    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -319,6 +315,7 @@ body{
     .button{
         font-size: 15px;
     }
+
 }
 
 
