@@ -20,7 +20,7 @@
 body{
     background-image: url(../img/wp2682996.jpg);
     display: flex;
-    
+    height: 100vh;
 }
 
 
@@ -32,8 +32,6 @@ body{
 }
 
 .sessao_menu{
-    display: flex;
-    height: 10%;
     display: flex;
     font-family: 'sessao';
     justify-content: space-between;
@@ -93,7 +91,6 @@ body{
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 100vh;
 }
 
 
