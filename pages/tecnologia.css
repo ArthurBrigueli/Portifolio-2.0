@@ -21,8 +21,7 @@ body{
     background-image: url(../img/wp2682996.jpg);
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 930px;
+    height: 100%;
 }
 
 
@@ -35,8 +34,6 @@ body{
 
 /**/
 .sessao_menu{
-    display: flex;
-    height: 10%;
     display: flex;
     font-family: 'sessao';
     justify-content: space-between;
@@ -104,7 +101,7 @@ body{
 .container{
     background-color: rgba(0, 0, 0, 0.297);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     color: white;
     display: flex;
     flex-direction: column;
@@ -136,42 +133,10 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80%;
+    height: 100%;
 
 }
 
-
-.container-download{
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.botao-download{
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-    border: 2px solid white;
-    border-radius: 5px;
-    width: 20%;
-    height: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: nome;
-    transition: all .5s;
-    box-shadow: 2px 2px 10px 1px white;
-    backdrop-filter: blur(5px);
-}
-
-.botao-download:hover{
-    border: 2px solid white;
-    background-color: white;
-    color: black;
-    transform: translate(5px, 5px);
-    box-shadow: none;
-}
 
 
 
