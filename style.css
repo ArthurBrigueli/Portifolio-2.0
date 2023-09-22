@@ -20,8 +20,10 @@
 body{
     background-image: url(img/wp2682996.jpg);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     height: 100vh;
+    color: white;
+    
     
 }
 
@@ -102,22 +104,18 @@ body{
 
 
 
-.container{
-    background-color: rgba(0, 0, 0, 0.297);
-    color: white;
+
+section{
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    border-radius: 5px;
-    overflow: hidden;
-    overflow-y: scroll;
-    gap: 20%;
+    justify-content: center;
+    align-items: center;
 }
-
-
 
 
 .container-conteudo{
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
