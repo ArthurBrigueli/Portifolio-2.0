@@ -6,6 +6,12 @@
 }
 
 
+.img_navbar{
+    width: 10%;
+    filter: invert();
+}
+
+
 .menu-mobile{
     display: flex;
     justify-content: center;
