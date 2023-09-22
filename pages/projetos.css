@@ -19,6 +19,7 @@
 
 body{
     background-image: url(../img/wp2682996.jpg);
+    background-size: cover;
     display: flex;
     height: 100vh;
 }
