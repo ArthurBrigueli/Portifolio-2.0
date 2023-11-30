@@ -20,6 +20,7 @@
 body{
     background-image: url(img/wp2682996.jpg);
     background-size: cover;
+    background-size: auto;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -111,6 +112,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0px;
 }
 
 
@@ -141,8 +143,9 @@ section{
 }
 
 .container-botao-git{
-    width: 35%;
     height: 50px;
+    display: flex;
+    gap: 10px;
 }
 
 
