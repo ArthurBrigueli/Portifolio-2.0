@@ -26,26 +26,20 @@ const info = [
     },
     {
         id: 3,
-        titulo: "Csharp",
-        desc: "Cursando a tecnologia Csharp no atual terceiro semestre na faculdade de analise e desenvolvimento de sistemas",
-        cor: "rgb(255, 101, 255)"
-    },
-    {
-        id: 4,
-        titulo: "Oracle",
-        desc: "Cursando a tecnologia Oracle SQL no atual terceiro semestre na faculdade de analise e desenvolvimento de sistemas",
-        cor: "orange"
-    },
-    {
-        id: 5,
-        titulo: "React",
-        desc: "Cursando a tecnologia React Js na Udemy - React do Zero a Maestria (c/ hooks, router, API, Projetos",
+        titulo: "MySQL",
+        desc: "Experiência em MySQL, incluindo design de banco de dados, otimização e execução eficiente de consultas. Conhecimento atualizado com as melhores práticas para garantir soluções eficazes.",
         cor: "rgb(157, 252, 255)"
     },
     {
-        id: 6,
+        id: 4,
+        titulo: "React.js",
+        desc: "Experiencia em React.js com o uso de toda sua estrutura como (hooks, router, components etc) sempre estruturando da melhor forma e transformando em components para aumentar o desenvolvimento em um menor tempo",
+        cor: "rgb(157, 252, 255)"
+    },
+    {
+        id: 5,
         titulo: ' NodeJS',
-        desc: 'feito pelo canal ciencia da computação, usando todas as bibliotecas nescessaria para a criação de um projeto back e front',
+        desc: 'Alta experiencia em node.js com criação de APIs para integrar com projetos React.js e outros frameworks e usando as melhores estruturas para o desenvolvimento de um back-end ',
         cor: 'green'
     }
 ]
